@@ -3,6 +3,7 @@ import "./App.css";
 import Bar from "./Components/Bar";
 import Header from "./Components/Header";
 import Category from "./Components/Category";
+import Items from "./Components/Items";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Container>
         <Header />
         <Category />
+        <Items />
       </Container>
     </div>
   );
